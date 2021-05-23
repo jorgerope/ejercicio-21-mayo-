@@ -1,0 +1,43 @@
+
+footer {
+    display:grid;
+    grid-template-rows:1024px;
+   
+   
+    background-color:map-get($colores, azul);
+    color: map-get($colores, blanco);
+    
+    height: 300px;
+       
+}
+footer a{
+    color: map-get($colores, blanco);
+}
+
+.izq {
+   
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    
+}
+.redes_sociales{
+}
+.acerca{
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+li {
+    margin-bottom: 1rem;
+}
+.titulo {
+    font-size: $fontTextoNav;
+    font-weight:bold;
+}
+.copy {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }

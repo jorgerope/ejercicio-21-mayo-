@@ -1,0 +1,21 @@
+/*HEADER*/
+/********/
+
+html {
+  height: 1024px;
+width: 1440px;
+}
+
+a {
+  color: map-get($colores, negro);
+    font-size: ($fontTextoNav);
+font-family: ($familiaFont);
+}
+
+
+.contenedor{
+display: flex;
+  background-color: map-get($colores, blanco);  
+  padding: 5px 25px;
+  
+}

@@ -1,0 +1,36 @@
+/*ZIGZAG*/
+/********/
+
+
+html{
+    
+    height: 1024px;
+    width: 1440px;
+}
+
+.contenedorzig{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+
+
+.edificio-esquina{
+  
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.edificios{ 
+
+      display: flex;
+      align-items: center;
+   
+}
+
+
+p{padding: 20px;}
